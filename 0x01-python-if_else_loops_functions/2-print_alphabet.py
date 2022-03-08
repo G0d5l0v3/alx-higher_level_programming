@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-for letters in "abcdefghijklmnopqrstuvwxyz":
-    print('{}'.format(letters), end = "")
+for letters in range(ord('a'), ord('{')):
+    print('{:c}'.format(letters), end='')
