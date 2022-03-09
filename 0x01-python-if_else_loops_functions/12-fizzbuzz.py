@@ -11,9 +11,9 @@ three and five print FizzBuzz
 
 def fizzbuzz():
     for i in range(1, 101):
-        elif i % 3 == 0 and i % 5 == 0:
+        if i % 3 == 0 and i % 5 == 0:
             print('{}'.format("FizzBuzz"), end=' ')
-        if i % 3 == 0:
+        elif i % 3 == 0:
             print('{}'.format("Fizz"), end=' ')
         elif i % 5 == 0:
             print('{}'.format("Buzz"), end=' ')
